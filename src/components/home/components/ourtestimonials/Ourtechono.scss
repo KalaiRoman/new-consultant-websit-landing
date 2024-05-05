@@ -1,0 +1,154 @@
+@use "../../../../sass/abstract/" as *;
+
+.main-our {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  @include xsBreakPoint {
+    height: 100%;
+  }
+  @include smBreakPoint {
+    height: 100%;
+  }
+  @include mdBreakPoint {
+    height: 100%;
+  }
+  .inside-our-tech {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    @include xsBreakPoint {
+      flex-direction: column;
+    }
+    @include smBreakPoint {
+      flex-direction: column;
+    }
+    @include mdBreakPoint {
+      flex-direction: column;
+    }
+    .left-our-tech {
+      width: 35%;
+      height: 100%;
+      background-color: #e46425;
+      color: white;
+      padding: 5% 40px;
+      @include xsBreakPoint {
+        width: 100%;
+      }
+      @include smBreakPoint {
+        width: 100%;
+      }
+      @include mdBreakPoint {
+        width: 100%;
+      }
+      .read-more-button {
+        width: 50%;
+        background-color: #121b51;
+        color: white;
+        padding: 18px;
+        cursor: pointer;
+        align-items: center;
+        display: flex;
+        gap: 10px;
+        border-radius: 6px;
+        @include xsBreakPoint {
+          width: 100%;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .read-more-button:hover {
+        background-color: white;
+        border: 1px solid #121b51;
+        color: #121b51;
+      }
+      .our-texts1 {
+        font-size: 2rem;
+        font-weight: 500;
+        position: relative;
+      }
+      .our-texts1::before {
+        content: "";
+        position: absolute;
+        width: 10%;
+        border-bottom: 2px solid white;
+        left: 0;
+        bottom: 0;
+      }
+    }
+    .right-our-tech {
+      width: 65%;
+      background-image: url("../../../../assests/images/service-bg1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      color: white;
+      z-index: 989899889898989 !important;
+      @include xsBreakPoint {
+        width: 100%;
+      }
+      @include smBreakPoint {
+        width: 100%;
+      }
+      @include mdBreakPoint {
+        width: 100%;
+      }
+    }
+    .right-our-tech::before {
+      //   background-color: rgb(47, 60, 104, 0.6);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      z-index: -10px !important;
+      color: white;
+    }
+    .inside-right-tech {
+      width: 100%;
+      padding: 10%;
+      display: flex;
+      gap: 20px;
+      .boxlisst {
+        width: 48.5%;
+        display: flex;
+        gap: 20px;
+        height: 100%;
+        @include xsBreakPoint {
+          width: 100%;
+        }
+        @include smBreakPoint {
+          width: 100%;
+        }
+        @include mdBreakPoint {
+          width: 100%;
+        }
+        @include lgBreakPoint {
+          width: 48%;
+        }
+        @include xlBreakPoint {
+          width: 48.2%;
+        }
+        .left-boxess {
+          width: 20%;
+          .icon-boxess {
+            width: 40px;
+            color: #e46425 !important;
+            height: 40px;
+          }
+        }
+        .right-boxess {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+.bttitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+}

@@ -1,0 +1,98 @@
+import React from 'react'
+import Slider from "react-slick";
+import './Home1.scss';
+import { slider1,slider2 } from '../../../../assests/images';
+import SlideNextArrow from './slidenextarrow/SlideNextArrow';
+import SlidePreArrow from './slideprearrow/SlidePreArrow';
+function Homepage1() {
+    var settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        nextArrow: <SlideNextArrow />,
+        prevArrow: <SlidePreArrow />,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 3,
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
+  return (
+    <div className='main-home1'>
+        <Slider {...settings}>
+      <div className='box'>
+        <div>
+      <img src={slider1} alt="no image" className='image'/>
+
+        </div>
+      <div className='title-section'>
+        <div className='mb-5'>
+          <h2>
+
+          Welcome to Microhaze Technologies
+
+          </h2>
+        </div>
+        <div className='mt-2 mb-5'>
+          <h1>
+          Software Development
+          </h1>
+        </div>
+        <div className='btn-read'>
+          <div>Read More
+          </div>
+         <div>
+         <i class="fa-solid fa-arrow-right-long"></i>
+         </div>
+        </div>
+      </div>
+      </div>
+      <div className='box'>
+      <img src={slider2} alt="no image" className='image'/>
+      <div className='title-section'>
+        <div className='mb-5 '>
+          <h2>
+          Welcome to Microhaze Technologies
+          </h2>
+        </div>
+        <div className='mt-2 mb-5'>
+          <h1>
+          Software Development
+          </h1>
+        </div>
+        <div className='btn-read'>
+          <div>Read More
+          </div>
+         <div>
+         <i class="fa-solid fa-arrow-right-long"></i>
+         </div>
+        </div>
+      </div>
+      </div>
+    </Slider>
+    </div>
+  )
+}
+
+export default Homepage1

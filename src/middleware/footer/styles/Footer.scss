@@ -1,0 +1,98 @@
+@use "../../../sass/abstract/" as *;
+
+.main-footer-section {
+  width: 100%;
+  height: 100%;
+  background-color: #121b51;
+  padding: 7% 0px;
+  .inside-footer-section {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    gap: 5%;
+    height: 100%;
+    @include xsBreakPoint {
+      flex-direction: column;
+      gap: 15px !important;
+    }
+    @include smBreakPoint {
+      flex-direction: column;
+      gap: 15px !important;
+    }
+    @include lgBreakPoint {
+      gap: 15px !important;
+    }
+    @include xlBreakPoint {
+      gap: 15px !important;
+    }
+
+    .footer-1 {
+      width: 25%;
+      color: white;
+      @include xsBreakPoint {
+        width: 100%;
+      }
+      @include smBreakPoint {
+        width: 100%;
+      }
+    }
+    .footer-2 {
+      width: 25%;
+      @include xsBreakPoint {
+        width: 100%;
+      }
+      @include smBreakPoint {
+        width: 100%;
+      }
+    }
+    .footer-3 {
+      width: 25%;
+      @include xsBreakPoint {
+        width: 100%;
+      }
+      @include smBreakPoint {
+        width: 100%;
+      }
+    }
+    .footer-4 {
+      width: 25%;
+      @include xsBreakPoint {
+        width: 100%;
+      }
+      @include smBreakPoint {
+        width: 100%;
+      }
+    }
+  }
+  .footer-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+  }
+  .box-split {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  .box-split-last {
+    display: flex;
+    gap: 10px;
+    color: white;
+    padding: 10px 0px;
+  }
+  .follow-text {
+    color: #a5a7b3;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+  }
+  .icon-color {
+    color: #a24b33;
+    font-size: 1.2rem;
+  }
+  .mic {
+    line-height: 30px;
+  }
+}

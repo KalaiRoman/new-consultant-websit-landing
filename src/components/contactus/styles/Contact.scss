@@ -1,0 +1,122 @@
+@use "../../../sass/abstract/" as *;
+
+.main-contact {
+  width: 100%;
+  height: 100%;
+  .inside-contact-main {
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+    .carrer-banner-image {
+      position: relative;
+      @include xsBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+      @include smBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+      @include mdBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+      @include lgBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+      @include xlBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .abouts-texts {
+      position: absolute;
+      top: 40%;
+      left: 45%;
+      text-align: center;
+      transform: translate(50% 50%);
+    }
+    .split-contact {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      padding: 7% 0px;
+      gap: 30px;
+      @include xsBreakPoint {
+        flex-direction: column;
+      }
+      @include smBreakPoint {
+        flex-direction: column;
+      }
+      @include mdBreakPoint {
+        width: 90%;
+      }
+      .left-contact {
+        width: 60%;
+        @include xsBreakPoint {
+          width: 100%;
+        }
+        @include smBreakPoint {
+          width: 100%;
+        }
+        .send-button {
+          width: 32%;
+          background-color: #f96921;
+          display: flex;
+          gap: 20px;
+          align-items: center;
+          padding: 12px;
+          border-radius: 5px;
+          color: white;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          cursor: pointer;
+          justify-content: center;
+          @include xsBreakPoint {
+            width: 100%;
+          }
+          @include smBreakPoint {
+            width: 100%;
+          }
+          @include mdBreakPoint {
+            width: 100%;
+          }
+          @include lgBreakPoint {
+            width: 60%;
+          }
+          @include xlBreakPoint {
+            width: 40%;
+          }
+        }
+        .send-button:hover {
+          background-color: #121b51;
+          color: white;
+          cursor: pointer;
+        }
+      }
+      .right-contact {
+        width: 40%;
+        @include xsBreakPoint {
+          width: 100%;
+        }
+        @include smBreakPoint {
+          width: 100%;
+        }
+        .split-box-contact {
+          display: flex;
+          gap: 20px;
+          padding: 2% 0px;
+          color: #989898;
+        }
+        .reach-text {
+          color: #989898;
+          font-weight: 600;
+        }
+      }
+    }
+    .form-box {
+      padding: 13px !important;
+    }
+  }
+}

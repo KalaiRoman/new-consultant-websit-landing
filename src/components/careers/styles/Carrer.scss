@@ -1,0 +1,115 @@
+@use "../../../sass/abstract/" as *;
+
+.carrer-main {
+  width: 100%;
+  height: 100%;
+
+  .inside-carrer {
+    width: 100%;
+    height: 100%;
+    .carrer-banner-image {
+      @include xsBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+      @include smBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+      @include mdBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+      @include lgBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+      @include xlBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .carrer-texts {
+      padding: 5% 0px;
+      display: flex;
+      gap: 20px;
+      width: 100%;
+      @include xsBreakPoint {
+        flex-direction: column;
+        padding: 10% 10px !important;
+      }
+      @include smBreakPoint {
+        flex-direction: column;
+        padding: 10% 10px !important;
+      }
+      @include mdBreakPoint {
+        flex-direction: column;
+        padding: 10% 10px !important;
+      }
+      .left-box {
+        width: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .carrerimage {
+          @include lgBreakPoint {
+            width: 100%;
+            padding: 20px;
+          }
+        }
+        @include xsBreakPoint {
+          width: 100%;
+        }
+        @include smBreakPoint {
+          width: 100%;
+        }
+        @include mdBreakPoint {
+          width: 100%;
+        }
+      }
+      .right-box {
+        width: 45%;
+        @include xsBreakPoint {
+          width: 100%;
+        }
+        @include smBreakPoint {
+          width: 100%;
+        }
+        @include mdBreakPoint {
+          width: 100%;
+        }
+        .look-text {
+          width: 80%;
+          line-height: 30px;
+          font-size: 1.1rem;
+          color: #979797;
+          font-weight: 500;
+          @include xsBreakPoint {
+            width: 90%;
+          }
+          @include mdBreakPoint {
+            width: 90%;
+          }
+        }
+        .career-first {
+          position: relative;
+          border-bottom: 3px solid orangered;
+          width: 6%;
+          @include xsBreakPoint {
+            width: 12%;
+          }
+          @include smBreakPoint {
+            width: 8%;
+          }
+          @include mdBreakPoint {
+            width: 8%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.abouts-texts {
+  color: white;
+}

@@ -1,0 +1,79 @@
+@use "../../../../sass/abstract/" as *;
+
+.main-testimonials {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../../../../assests/images/best-bg-back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include xsBreakPoint {
+    width: 100%;
+    height: 90vh;
+  }
+  @include smBreakPoint {
+    width: 100%;
+    height: 80vh;
+  }
+  @include mdBreakPoint {
+    width: 100%;
+    height: 70vh;
+  }
+  @include lgBreakPoint {
+    width: 100%;
+    height: 90vh;
+  }
+  @include xlBreakPoint {
+    width: 100%;
+    height: 80vh;
+  }
+  .inside-main-testmonials {
+    width: 80%;
+    height: 100% !important;
+    margin: 0 auto;
+    @include xsBreakPoint {
+      width: 85%;
+    }
+    .inside-slide-box-test {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex-direction: column !important;
+      margin: 0 auto;
+      height: 100% !important;
+      width: 50% !important;
+      margin-top: 10%;
+      text-align: center;
+
+      @include lgBreakPoint {
+        margin-top: 20%;
+      }
+
+      @include xlBreakPoint {
+        margin-top: 14%;
+      }
+
+      .quotes-box {
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .quote-arrow {
+        position: absolute;
+        top: 0%;
+        right: 37%;
+        font-size: 2rem;
+        color: #f96921;
+      }
+      .fa-star {
+        color: #f96921;
+      }
+      .name {
+        text-transform: uppercase;
+      }
+    }
+  }
+}

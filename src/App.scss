@@ -1,0 +1,96 @@
+@use "sass" as *;
+
+.cursor {
+  cursor: pointer;
+}
+.icon:hover {
+  color: orangered;
+}
+
+// button
+
+.common-btn {
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+// h1
+
+h1 {
+  font-size: 3rem !important;
+  @include xsBreakPoint {
+    font-size: 1.5rem !important;
+  }
+}
+
+// h2
+
+h2 {
+  font-size: 1.5rem !important;
+}
+
+h3 {
+  font-size: 2rem !important;
+}
+
+// grey color
+.grey-text {
+  color: #777777;
+  line-height: 30px;
+  font-size: 1.1rem;
+}
+
+// common text color
+
+.orange-text {
+  color: #f96921;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+// image size
+.cm {
+  @include xsBreakPoint {
+    width: 100%;
+    height: 100%;
+  }
+  @include smBreakPoint {
+    width: 100%;
+    height: 100%;
+  }
+  @include mdBreakPoint {
+    width: 100%;
+    height: 100%;
+  }
+  @include lgBreakPoint {
+    width: 100%;
+    height: 100%;
+  }
+  @include xlBreakPoint {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// our-texts
+
+.our-texts {
+  font-size: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+.our-texts::after {
+  position: absolute;
+  content: "";
+  border: 2px solid #f96921;
+  width: 70px;
+  left: 47%;
+  transform: translateX(50%, 50%);
+}

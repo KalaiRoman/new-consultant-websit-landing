@@ -1,0 +1,88 @@
+@use "../../../../../sass/abstract/" as *;
+
+.main-ourservice {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  .inside-ourservice {
+    width: 100%;
+    height: 100%;
+    .our-boxs {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      @include xsBreakPoint {
+        width: 95%;
+      }
+      @include smBreakPoint {
+        width: 95%;
+      }
+      @include mdBreakPoint {
+        width: 95%;
+      }
+      @include lgBreakPoint {
+        width: 95%;
+      }
+      @include xlBreakPoint {
+        width: 95%;
+      }
+    }
+    .cards {
+      width: 45%;
+      background-color: white;
+      margin-top: 1%;
+      display: flex;
+      gap: 20px;
+      color: black;
+      align-items: center;
+      padding: 30px 10px;
+      cursor: pointer;
+      @include xsBreakPoint {
+        width: 100%;
+        flex-direction: column;
+      }
+      @include smBreakPoint {
+        width: 100%;
+        flex-direction: column;
+      }
+      @include mdBreakPoint {
+        width: 47.5%;
+        flex-direction: column;
+      }
+      @include lgBreakPoint {
+        width: 47%;
+      }
+      .left-ourbox {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include xsBreakPoint {
+          width: 100%;
+        }
+        @include smBreakPoint {
+          width: 100%;
+        }
+      }
+      .right-ourbox {
+        width: 70%;
+        .read-button:hover {
+          color: #f96921 !important;
+          cursor: pointer;
+        }
+        .read-button {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+        .color-icon {
+          color: #f96921;
+        }
+      }
+    }
+  }
+}

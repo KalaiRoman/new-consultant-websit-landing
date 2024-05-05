@@ -1,0 +1,98 @@
+@use "../../../../sass/abstract/" as *;
+
+.main-home1 {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  @include xsBreakPoint {
+    width: 100%;
+    height: 100%;
+  }
+  @include lgBreakPoint {
+    width: 100%;
+    height: 100%;
+    border: 5px solid red;
+  }
+  @include xlBreakPoint {
+    width: 100%;
+    height: auto;
+  }
+}
+.box {
+  position: relative;
+}
+.title-section {
+  position: absolute;
+  left: 25vh;
+  color: white;
+  top: 25%;
+  transform: translateX(-50%, -50%);
+  @include lgBreakPoint {
+    left: 10%;
+  }
+}
+.image {
+  width: 100%;
+  height: 100%;
+  @include xsBreakPoint {
+    width: 100%;
+    height: 100%;
+  }
+  @include xlBreakPoint {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.btn-read {
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: white;
+  color: orange;
+  width: 40%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.slick-slide {
+  display: block !important;
+  padding: 0 !important;
+  height: 100vh;
+  overflow: hidden;
+  @include xsBreakPoint {
+    width: 100%;
+    height: auto;
+  }
+  @include smBreakPoint {
+    width: 100%;
+    height: auto;
+  }
+  @include mdBreakPoint {
+    width: 100%;
+    height: auto;
+  }
+  @include lgBreakPoint {
+    width: 100%;
+    height: auto;
+  }
+  @include xlBreakPoint {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.micro {
+  margin-top: -10px;
+  z-index: 989898 !important;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}

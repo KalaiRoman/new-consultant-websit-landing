@@ -1,0 +1,66 @@
+@use "../../../../sass/abstract/" as *;
+
+.main-help-box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+
+  .help-boxs {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    padding: 0 !important;
+    @include xsBreakPoint {
+      flex-direction: column;
+      width: 95%;
+    }
+    @include smBreakPoint {
+      flex-direction: column;
+      width: 95%;
+    }
+    @include mdBreakPoint {
+      flex-direction: column;
+      width: 95%;
+    }
+    @include lgBreakPoint {
+      width: 95%;
+    }
+    @include xlBreakPoint {
+      width: 95%;
+    }
+  }
+
+  .cardss {
+    width: 30%;
+    display: flex;
+    color: black;
+    cursor: pointer;
+    flex-direction: column;
+    background-color: white;
+    @include xsBreakPoint {
+      width: 100%;
+    }
+    @include smBreakPoint {
+      width: 100%;
+    }
+    @include mdBreakPoint {
+      width: 100%;
+    }
+
+    @include lgBreakPoint {
+      width: 34%;
+    }
+    .card-image-box {
+      object-fit: cover;
+    }
+
+    .title {
+      color: #f96921;
+    }
+    .card-inside {
+      padding: 23px 30px;
+    }
+  }
+}

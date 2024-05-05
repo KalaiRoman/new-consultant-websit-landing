@@ -1,0 +1,103 @@
+@use "../../../sass/abstract/" as *;
+
+.main-bottom-header {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
+  .middle-header-bottom-section {
+    width: 80%;
+    height: 100%;
+    padding: 20px 0px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+
+    @include lgBreakPoint {
+      width: 90%;
+    }
+    @include xlBreakPoint {
+      width: 90%;
+    }
+    .middle-header-bottom-left {
+      width: 20%;
+      @include lgBreakPoint {
+        width: 12%;
+      }
+    }
+    .middle-header-bottom-middle {
+      width: 80%;
+      display: flex;
+      gap: 7.8%;
+      letter-spacing: 1px;
+      font-size: 0.987rem;
+      font-weight: 400;
+      cursor: pointer;
+      @include lgBreakPoint {
+        width: 88%;
+        gap: 6.3%;
+      }
+      @include xlBreakPoint {
+        width: 88%;
+        gap: 7.7%;
+      }
+    }
+    .box-show {
+      position: relative;
+    }
+    .activepath::after {
+      position: absolute;
+      content: "";
+      top: -3vh;
+      width: 100%;
+      left: 0;
+      border: 2px solid orangered;
+    }
+    .inactivepath {
+      border: none;
+    }
+    .show {
+      position: absolute;
+      top: 6.7vh;
+      width: 250px;
+      height: auto;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      background-color: white;
+      z-index: 989898 !important;
+      @include lgBreakPoint {
+        top: 5.5vh;
+      }
+      @include xlBreakPoint {
+        top: 5.5vh;
+      }
+    }
+    .show::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      border: 1px solid orangered;
+      width: 100%;
+    }
+    .hide {
+      display: none;
+    }
+    .border-lists {
+      border-bottom: 1px solid #f4f4f4;
+      padding: 12px 15px;
+    }
+    .a {
+      color: black;
+    }
+    .border-lists:hover .a {
+      background-color: #f96921;
+      color: white !important;
+      cursor: pointer;
+      padding-left: 10px;
+    }
+  }
+}
+
+.logo {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}

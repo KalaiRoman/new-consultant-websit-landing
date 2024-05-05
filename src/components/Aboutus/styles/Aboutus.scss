@@ -1,0 +1,161 @@
+@use "../../../sass/abstract/" as *;
+
+.carrer-main {
+  width: 100%;
+  height: 100%;
+  .inside-carrer {
+    width: 100%;
+    height: 100%;
+    .carrer-banner-image {
+      position: relative;
+      z-index: 0 !important;
+      @include xsBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+      @include smBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+      @include mdBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+      @include lgBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+      @include xlBreakPoint {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .abouts-texts {
+      position: absolute;
+      top: 40%;
+      left: 45%;
+      text-align: center;
+      transform: translate(50% 50%);
+    }
+    .carrer-banner-images::after {
+      content: "";
+      position: absolute;
+
+      text-align: center;
+      color: black !important;
+      z-index: 989898998989899889 !important;
+      background-color: red;
+    }
+    .carrer-texts {
+      padding: 5% 0px;
+      display: flex;
+      gap: 20px;
+      width: 100%;
+      @include xsBreakPoint {
+        flex-direction: column;
+        padding: 10% 10px !important;
+      }
+      @include smBreakPoint {
+        flex-direction: column;
+        padding: 10% 10px !important;
+      }
+      @include mdBreakPoint {
+        flex-direction: column;
+        padding: 10% 10px !important;
+      }
+      .left-box {
+        width: 55%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .carrerimage {
+          @include lgBreakPoint {
+            width: 100%;
+            padding: 20px;
+          }
+        }
+        @include xsBreakPoint {
+          width: 100%;
+        }
+        @include smBreakPoint {
+          width: 100%;
+        }
+        @include mdBreakPoint {
+          width: 100%;
+        }
+      }
+
+      .right-box {
+        width: 45%;
+        @include xsBreakPoint {
+          width: 100%;
+        }
+        @include smBreakPoint {
+          width: 100%;
+        }
+        @include mdBreakPoint {
+          width: 100%;
+        }
+        .look-text {
+          width: 80%;
+          line-height: 30px;
+          font-size: 1.1rem;
+          color: #979797;
+          font-weight: 500;
+          @include xsBreakPoint {
+            width: 90%;
+          }
+          @include mdBreakPoint {
+            width: 90%;
+          }
+        }
+        .career-firsts {
+          position: relative;
+        }
+        .career-firsts::before {
+          position: relative;
+          border-bottom: 3px solid orangered;
+          position: absolute;
+          content: "";
+          bottom: -1.3vh;
+          top: 0;
+          width: 8%;
+          @include xsBreakPoint {
+            width: 12%;
+          }
+          @include smBreakPoint {
+            width: 8%;
+          }
+          @include mdBreakPoint {
+            width: 8%;
+          }
+        }
+      }
+    }
+    .cards {
+      width: 32%;
+      border: 1px solid #eeeeee;
+      padding: 30px;
+      cursor: pointer;
+      @include xsBreakPoint {
+        width: 100%;
+      }
+      @include smBreakPoint {
+        width: 100%;
+      }
+      @include mdBreakPoint {
+        width: 31%;
+      }
+      @include lgBreakPoint {
+        width: 31%;
+      }
+      @include xlBreakPoint {
+        width: 31%;
+      }
+      .to {
+        color: #777777;
+        font-weight: 450;
+      }
+    }
+  }
+}

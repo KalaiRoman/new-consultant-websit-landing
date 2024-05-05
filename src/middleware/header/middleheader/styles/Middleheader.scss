@@ -1,0 +1,25 @@
+@use "../../../../sass/abstract/" as *;
+
+.middle-main-header {
+  width: 100%;
+  height: 100%;
+  background-color: #040c39;
+  padding: 15px 20px;
+  color: white;
+  .inside-middle-header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    @include lgBreakPoint {
+      width: 90%;
+    }
+    @include xlBreakPoint {
+      width: 90%;
+    }
+    .right-middle-header {
+      display: flex;
+      gap: 20px;
+    }
+  }
+}

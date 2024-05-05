@@ -1,0 +1,96 @@
+@use "../../../../sass/abstract/" as *;
+
+.mobile-header-section {
+  width: 100%;
+  background-color: #040c39;
+  color: white;
+  @include xsBreakPoint {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+  }
+  @include smBreakPoint {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+  }
+  @include mdBreakPoint {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+  }
+  .left-mobile-header {
+    width: 50%;
+    text-align: start;
+    @include smBreakPoint {
+      width: 50%;
+    }
+  }
+  .right-mobile-header {
+    width: 50%;
+    text-align: end;
+    cursor: pointer;
+    @include smBreakPoint {
+      width: 50%;
+    }
+  }
+}
+
+.box-shows {
+  display: flex;
+  gap: 1vh;
+  margin: 2vh 0px;
+  padding: 8px 10px;
+  cursor: pointer;
+  position: relative;
+}
+.activepaths {
+  width: 100%;
+  padding: 7px 7px;
+  border-radius: 10px;
+  background-color: orangered;
+  color: white;
+}
+
+.inactivepaths {
+  border: none;
+}
+.shows {
+  position: absolute;
+  top: 5vh;
+  width: 300px;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
+  border-radius: 8px;
+  z-index: 98989898 !important;
+  overflow: hidden;
+  @include lgBreakPoint {
+    top: 5.5vh;
+  }
+  @include xlBreakPoint {
+    top: 5.5vh;
+  }
+}
+.shows::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.hides {
+  display: none;
+}
+.border-lists {
+  border-bottom: 1px solid #f4f4f4;
+  padding: 12px 15px;
+}
+.border-lists:hover {
+  background-color: #f96921;
+  color: white;
+  cursor: pointer;
+  padding-left: 10px;
+}
