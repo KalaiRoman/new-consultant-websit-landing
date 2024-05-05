@@ -127,7 +127,8 @@ export default function BootomHeader() {
     }}>
       <div className='middle-header-bottom-section'>
 <div className='middle-header-bottom-left'>
-  <img src={logo} alt="no image" className='logo'/>
+  {/* <img src={logo} alt="no image" className='logo'/> */}
+  Sungrow it<br/> consulting services
 </div>
 <div className='middle-header-bottom-middle' >
 

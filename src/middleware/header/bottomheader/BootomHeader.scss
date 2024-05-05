@@ -10,6 +10,7 @@
     margin: 0 auto;
     display: flex;
     gap: 20px;
+    align-items: center;
 
     @include lgBreakPoint {
       width: 90%;
@@ -46,10 +47,10 @@
     .activepath::after {
       position: absolute;
       content: "";
-      top: -3vh;
+      top: -5vh;
       width: 100%;
       left: 0;
-      border: 2px solid orangered;
+      border: 2px solid #e95a5a;
     }
     .inactivepath {
       border: none;
@@ -73,7 +74,7 @@
       content: "";
       position: absolute;
       top: 0;
-      border: 1px solid orangered;
+      border: 1px solid #e95a5a;
       width: 100%;
     }
     .hide {
@@ -87,7 +88,7 @@
       color: black;
     }
     .border-lists:hover .a {
-      background-color: #f96921;
+      // background-color: #f96921;
       color: white !important;
       cursor: pointer;
       padding-left: 10px;

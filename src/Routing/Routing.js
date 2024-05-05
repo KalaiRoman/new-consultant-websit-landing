@@ -4,16 +4,17 @@ import { Route, Routes } from "react-router-dom";
 import { Home,Aboutus,Contactus,Careers,Technologies,Services, Software, Softwaredevelopment, It, Cloud, Quality, Mobile, Sales, Javaj2ee, Cybersecurity, Python, Reactjs, Clinicalsas } from "../pages/Pages";
 
 
+import ClimbingBoxLoader from "react-spinners/ClipLoader";
 
 
 
 function Routing() {
   return (
-    <div>
+    <div >
          <Suspense
         fallback={
-          <div>
-            Loaindg...
+          <div className="loading">
+           <ClimbingBoxLoader color="#36d7b7" />
           </div>
         }
       >
