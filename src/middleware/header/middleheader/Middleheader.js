@@ -9,7 +9,7 @@ function Middleheader() {
 </div>
 <div className='right-middle-header'>
   <div className='d-flex gap-2 cursor'>
-  <span><i class="fa-solid fa-phone"></i></span>Call us at: 080-46837130
+  <span><i class="fa-solid fa-phone"></i></span>Call us at: +91  8778377119
   </div>
   <div>
     |

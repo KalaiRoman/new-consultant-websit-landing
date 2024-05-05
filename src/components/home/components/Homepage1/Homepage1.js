@@ -4,7 +4,10 @@ import './Home1.scss';
 import { slider1,slider2 } from '../../../../assests/images';
 import SlideNextArrow from './slidenextarrow/SlideNextArrow';
 import SlidePreArrow from './slideprearrow/SlidePreArrow';
+import { useNavigate } from 'react-router-dom';
 function Homepage1() {
+
+  const history=useNavigate();
     var settings = {
         dots: false,
         infinite: true,
@@ -41,7 +44,7 @@ function Homepage1() {
   return (
     <div className='main-home1'>
         <Slider {...settings}>
-      <div className='box'>
+      <div className='box' onClick={()=>history("/software-development")}>
         <div>
       <img src={slider1} alt="no image" className='image'/>
 
@@ -59,7 +62,7 @@ function Homepage1() {
           Software Development
           </h1>
         </div>
-        <div className='btn-read'>
+        <div className='btn-read' onClick={()=>history("/software-development")}>
           <div>Read More
           </div>
          <div>
@@ -68,7 +71,7 @@ function Homepage1() {
         </div>
       </div>
       </div>
-      <div className='box'>
+      <div className='box' onClick={()=>history("/sales-force")}>
       <img src={slider2} alt="no image" className='image'/>
       <div className='title-section'>
         <div className='mb-5 '>
@@ -81,7 +84,7 @@ function Homepage1() {
           Software Development
           </h1>
         </div>
-        <div className='btn-read'>
+        <div className='btn-read' onClick={()=>history("/sales-force")}>
           <div>Read More
           </div>
          <div>
