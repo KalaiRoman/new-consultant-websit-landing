@@ -25,11 +25,11 @@ function Routing() {
           <Route path="/careers" element={<Careers />}></Route>
           <Route path="" element={<Technologies />}>
           <Route index path="/sales-force" element={<Sales />}></Route>
-          <Route  exact path="/java" element={<Javaj2ee />}></Route>
-          <Route  exact path="/cyber-security" element={<Cybersecurity />}></Route>
-          <Route  exact path="/python" element={<Python />}></Route>
-          <Route  exact path="/reactjs" element={<Reactjs />}></Route>
-          <Route  exact path="/clinicalsas" element={<Clinicalsas />}></Route>
+          <Route exact path="/java" element={<Javaj2ee />}></Route>
+          <Route exact path="/cyber-security" element={<Cybersecurity />}></Route>
+          <Route exact path="/python" element={<Python />}></Route>
+          <Route exact path="/reactjs" element={<Reactjs />}></Route>
+          <Route exact path="/clinicalsas" element={<Clinicalsas />}></Route>
           </Route>
           <Route path="" element={<Services/>}>
           <Route index path="/software-development" element={<Softwaredevelopment />}></Route>

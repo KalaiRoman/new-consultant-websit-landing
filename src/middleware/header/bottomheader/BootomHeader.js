@@ -119,13 +119,7 @@ export default function BootomHeader() {
 
 
   }
-  const pathNavigateSoftware=(path)=>{
-   
-    history(path);
-
-
-
-}
+ 
   return (
     <div className='main-bottom-header' onMouseLeave={()=>{
       setShow(false)
@@ -159,7 +153,7 @@ export default function BootomHeader() {
         <div className={show && item?.arrayData?.length>0 && indexs===index?"show":"hide"}>
 {item?.arrayData?.map((items,indexss)=>{
   return(
-    <div key={indexss} className='border-lists'>
+    <div key={indexss} className='border-lists' onClick={()=>pathNavigate(items?.path)}>
       <a className='a' href={items?.path}>{items?.name}</a>
     </div>
   )
