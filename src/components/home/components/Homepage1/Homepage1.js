@@ -27,7 +27,7 @@ function Homepage1() {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1,
               slidesToScroll: 2,
               initialSlide: 2
             }
@@ -50,19 +50,19 @@ function Homepage1() {
 
         </div>
       <div className='title-section'>
-        <div className='mb-5'>
+        <div className='lists'>
           <h2>
 
           Welcome to Microhaze Technologies
 
           </h2>
         </div>
-        <div className='mt-2 mb-5'>
+        <div className='lists'>
           <h1>
           Software Development
           </h1>
         </div>
-        <div className='btn-read' onClick={()=>history("/software-development")}>
+        <div className='btn-read lists' onClick={()=>history("/software-development")}>
           <div>Read More
           </div>
          <div>
@@ -74,17 +74,17 @@ function Homepage1() {
       <div className='box' onClick={()=>history("/sales-force")}>
       <img src={slider2} alt="no image" className='image'/>
       <div className='title-section'>
-        <div className='mb-5 '>
+        <div className='lists '>
           <h2>
           Welcome to Microhaze Technologies
           </h2>
         </div>
-        <div className='mt-2 mb-5'>
+        <div className='lists'>
           <h1>
           Software Development
           </h1>
         </div>
-        <div className='btn-read' onClick={()=>history("/sales-force")}>
+        <div className='btn-read lists' onClick={()=>history("/sales-force")}>
           <div>Read More
           </div>
          <div>

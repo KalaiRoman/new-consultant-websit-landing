@@ -126,9 +126,9 @@ export default function BootomHeader() {
       setIndex(0)
     }}>
       <div className='middle-header-bottom-section'>
-<div className='middle-header-bottom-left'>
+<div className='middle-header-bottom-left cursor' onClick={()=>pathNavigate("/")}>
   {/* <img src={logo} alt="no image" className='logo'/> */}
-  Sungrow it<br/> consulting services
+ <span className='s'> S</span>ungrow <br/> <span className='s'>C</span>onsulting <span className='s'>S</span>ervices
 </div>
 <div className='middle-header-bottom-middle' >
 

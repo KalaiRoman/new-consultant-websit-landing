@@ -139,7 +139,8 @@ function MobileHeader() {
   return (
     <div className='mobile-header-section'>
         <div className='left-mobile-header'>
-            Logo
+ <span className='s'> S</span>ungrow
+          
         </div>
         <div className='right-mobile-header' onClick={handleShow}>
         <i class="fa-solid fa-bars"></i>

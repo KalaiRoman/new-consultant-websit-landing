@@ -25,6 +25,9 @@
 h1 {
   font-size: 3rem !important;
   @include xsBreakPoint {
+    font-size: 1rem !important;
+  }
+  @include smBreakPoint {
     font-size: 1.5rem !important;
   }
 }
@@ -33,6 +36,9 @@ h1 {
 
 h2 {
   font-size: 1.5rem !important;
+  @include xsBreakPoint {
+    font-size: 1rem !important;
+  }
 }
 
 h3 {
@@ -49,7 +55,7 @@ h3 {
 // common text color
 
 .orange-text {
-  color: #f96921;
+  color: #e95a5a;
   font-size: 1.4rem;
   font-weight: 600;
 }
@@ -102,4 +108,17 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.s {
+  color: #e95a5a;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.lists {
+  padding: 3% 0px;
+  @include xsBreakPoint {
+    padding: 1% !important;
+  }
 }

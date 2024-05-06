@@ -94,7 +94,7 @@ Reach out to us for questions and feedback. ... For more specific questions and 
   <i class="fa-solid fa-location-dot"></i>
   </div>
   <div>
-  Level 3, 824, HRBR Layout, Block I Extension, Kalyan Nagar, Bengaluru, Karnataka - 560 043.
+  201, NTR residency, Chembanahalli village, Sarjapura Road , Bangalore 562125
   </div>
 </div>
 <div className='split-box-contact'>

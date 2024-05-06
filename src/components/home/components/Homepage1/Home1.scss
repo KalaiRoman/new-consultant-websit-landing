@@ -11,7 +11,6 @@
   @include lgBreakPoint {
     width: 100%;
     height: 100%;
-    border: 5px solid red;
   }
   @include xlBreakPoint {
     width: 100%;
@@ -27,6 +26,15 @@
   color: white;
   top: 25%;
   transform: translateX(-50%, -50%);
+  @include xsBreakPoint {
+    left: 15%;
+  }
+  @include smBreakPoint {
+    left: 15%;
+  }
+  @include mdBreakPoint {
+    left: 15%;
+  }
   @include lgBreakPoint {
     left: 10%;
   }
@@ -60,6 +68,18 @@
   width: 40%;
   text-transform: uppercase;
   letter-spacing: 5px;
+  @include xsBreakPoint {
+    width: 80%;
+    font-size: 1rem !important;
+    padding: 8px !important;
+    letter-spacing: 2px;
+  }
+  @include smBreakPoint {
+    width: 50%;
+    font-size: 1rem !important;
+    padding: 8px !important;
+    letter-spacing: 2px;
+  }
 }
 
 .slick-slide {
