@@ -102,7 +102,7 @@ Reach out to us for questions and feedback. ... For more specific questions and 
   <i class="fa-solid fa-phone"></i>
   </div>
   <div>
-  080-46837130
+  +91  7418415642
   </div>
 </div>
 <div className='split-box-contact'>
@@ -110,7 +110,7 @@ Reach out to us for questions and feedback. ... For more specific questions and 
   <i class="fa-solid fa-envelope"></i>
   </div>
   <div>
-  hr@microhaze.com
+poovarasan@gmail.com
   </div>
 </div>
          </div>
