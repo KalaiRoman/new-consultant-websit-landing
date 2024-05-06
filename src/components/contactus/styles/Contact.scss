@@ -33,9 +33,14 @@
     .abouts-texts {
       position: absolute;
       top: 40%;
-      left: 30%;
+      left: 40%;
       text-align: center;
       transform: translate(50% 50%);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
       @include xsBreakPoint {
         top: 10%;
         left: 30%;
