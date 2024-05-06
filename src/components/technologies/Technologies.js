@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet, useNavigate } from 'react-router-dom'
 import '../services/styles/Service.scss';
-import { banner1,banner2,banner3,banner4,banner5,banner6, s1, s2, s3, s4, s5, s6 } from '../../assests/images';
+import { s1, s2, s3, s4, s5, s6 } from '../../assests/images';
 function Technologies() {
   const location=window.location.pathname;
 

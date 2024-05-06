@@ -7,13 +7,14 @@ function Careers() {
 <div className='inside-carrer'>
   <div className='carrer-banner-images'>
   <img src={carrer} alt="no image" className='carrer-banner-image'/>
-  </div>
   <div className='abouts-texts'>
    <h1>Careers</h1>
    <div>
     HOME {">"} CAREERS
    </div>
   </div>
+  </div>
+
   <div className='carrer-texts'>
     <div className='left-box'>
     <img src={carrerimage} alt="no image" className='carrerimage'/>

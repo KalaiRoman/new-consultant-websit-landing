@@ -33,9 +33,29 @@
     .abouts-texts {
       position: absolute;
       top: 40%;
-      left: 40%;
+      left: 30%;
       text-align: center;
       transform: translate(50% 50%);
+      @include xsBreakPoint {
+        top: 10%;
+        left: 30%;
+      }
+      @include smBreakPoint {
+        top: 12%;
+        left: 40%;
+      }
+      @include mdBreakPoint {
+        top: 12%;
+        left: 35%;
+      }
+      @include lgBreakPoint {
+        top: 28%;
+        left: 40%;
+      }
+      @include xlBreakPoint {
+        top: 25%;
+        left: 40%;
+      }
     }
     .split-contact {
       width: 80%;
