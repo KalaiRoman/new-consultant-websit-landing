@@ -88,7 +88,7 @@ function Microhaze() {
     <div className='career-firsts'>
       <h3>
 
-    SungrowTechnologies
+    Sungrow Technologies
 
       </h3>
     </div>
