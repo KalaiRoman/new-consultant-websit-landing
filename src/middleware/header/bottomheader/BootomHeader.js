@@ -127,8 +127,8 @@ export default function BootomHeader() {
     }}>
       <div className='middle-header-bottom-section'>
 <div className='middle-header-bottom-left cursor' onClick={()=>pathNavigate("/")}>
-  {/* <img src={logo} alt="no image" className='logo'/> */}
- <span className='s'> S</span>ungrow <br/> <span className='s'>C</span>onsulting <span className='s'>S</span>ervices
+  <img src={logo} alt="no image" className='logo1'/>
+ {/* <span className='s'> S</span>ungrow <br/> <span className='s'>C</span>onsulting <span className='s'>S</span>ervices */}
 </div>
 <div className='middle-header-bottom-middle' >
 
