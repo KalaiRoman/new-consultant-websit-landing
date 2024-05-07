@@ -13,14 +13,14 @@ function Ourservices() {
       name:"Software Development",
       path:"/software-development",
       image:ser1,
-      title:"SungrowTechnologies delivers cost effective and reliable software development services."
+      title:"Sungrow Technologies delivers cost effective and reliable software development services."
     },
     {
       id:2,
       name:"Software Testing",
       path:"/software-testing",
       image:ser2,
-      title:"SungrowTechnologies uses a risk-based prioritization approach to get to the right answers."
+      title:"Sungrow Technologies uses a risk-based prioritization approach to get to the right answers."
 
     },
     {

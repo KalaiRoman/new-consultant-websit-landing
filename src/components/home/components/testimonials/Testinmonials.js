@@ -43,18 +43,18 @@ function Testinmonials() {
   const datas=[
     {
       id:1,
-      name:"kalai",
+      name:"SANGEETHA",
+      des:"“  I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to work with you. It's really great how easy your websites are to update and manage. ”"
+    },
+    {
+      id:1,
+      name:"MANOHAR",
       des:"“ Must explain to you how mistaken idea denouncing pleasure &amp; praising pain was born &amp; we will give expound actual human happiness. ”"
     },
     {
       id:1,
-      name:"kalai",
-      des:"“ Must explain to you how mistaken idea denouncing pleasure &amp; praising pain was born &amp; we will give expound actual human happiness. ”"
-    },
-    {
-      id:1,
-      name:"kalai",
-      des:"“ Must explain to you how mistaken idea denouncing pleasure &amp; praising pain was born &amp; we will give expound actual human happiness. ”"
+      name:"ARUN KUMAR",
+      des:"“ praising pain was born &amp; we will give expound actual human happiness. ”"
     }
   ]
   return (

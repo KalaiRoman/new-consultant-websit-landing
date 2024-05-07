@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import './styles/Mobileheader.scss';
 import { useNavigate } from 'react-router-dom';
+import { logo } from '../../../assests/images';
 
 function MobileHeader() {
     const [show, setShow] = useState(false);
@@ -139,7 +140,8 @@ function MobileHeader() {
   return (
     <div className='mobile-header-section'>
         <div className='left-mobile-header'>
- <span className='s'> S</span>ungrow
+
+<img src={logo} alt="no image" className='logo'/>
           
         </div>
         <div className='right-mobile-header' onClick={handleShow}>
