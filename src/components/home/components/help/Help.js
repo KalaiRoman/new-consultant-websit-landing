@@ -8,14 +8,14 @@ function Help() {
     const arrayData=[
       {
         id:1,
-        title:"Microhaze Technologies",
+        title:"SungrowTechnologies",
         des:"On Time Delivery",
         des1:"There is a word that project managers and people involved regularly in projects use all the time; it is delivery.",
         image:h1i
       },
       {
         id:2,
-        title:"Microhaze Technologies",
+        title:"SungrowTechnologies",
         des:"Hard Work Team",
         des1:"Coming together is a beginning. Keeping together is progress. Working together is success.",
         image:h2i
@@ -24,7 +24,7 @@ function Help() {
       },
       {
         id:3,
-        title:"Microhaze Technologies",
+        title:"SungrowTechnologies",
         des:"Best Company",
         des1:"Your business software more technologically advanced than your competitors’ software..",
         image:h3i

@@ -12,7 +12,7 @@ function SoftwareTest() {
         <h3>Software Testing</h3>
       </div>
       <div className='grey-text mb-3 mt-2'>
-      Microhaze Technologies uses a risk-based prioritization approach to get to the right answers and overcome the top reasons for failure. We focus on defect prevention by designing test strategies around the entire development lifecycle and implementing optimized test plans.
+      SungrowTechnologies uses a risk-based prioritization approach to get to the right answers and overcome the top reasons for failure. We focus on defect prevention by designing test strategies around the entire development lifecycle and implementing optimized test plans.
       </div>
       <div className='grey-text mt-2'>
       We have a responsive and agile mindset that provides a focused "will succeed" approach to each engagement resulting in customer satisfaction and repeat business. We have a proven track record of delivering on-time and on-budget fixed bid projects.
@@ -21,7 +21,7 @@ function SoftwareTest() {
       Outsourced Product Development and IT Services
       </div>
       <div className='grey-text mt-2 mb-3'>
-      Microhaze Technologies engineering arm is known for Outsourced Product Development and IT Services. The group provides full-spectrum software product development services to help organizations leverage leading-edge technologies for business improvement.
+      SungrowTechnologies engineering arm is known for Outsourced Product Development and IT Services. The group provides full-spectrum software product development services to help organizations leverage leading-edge technologies for business improvement.
       </div>
       <div className='mt-4 orange-text mb-2'>
       End-to-End software development services include:
@@ -58,7 +58,7 @@ function SoftwareTest() {
       Product Re-engineering and Migration
       </div>
       <div className='grey-text mt-2 mb-3'>
-      Microhaze Technologies provides Product Re-engineering and Migration services. Our re-engineering & migration services include product and application re-engineering, technology migration, and OS migration services.
+      SungrowTechnologies provides Product Re-engineering and Migration services. Our re-engineering & migration services include product and application re-engineering, technology migration, and OS migration services.
       </div>
 
       <div className='mt-4 orange-text mb-2'>

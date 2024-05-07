@@ -16,7 +16,7 @@ function Footer() {
           About us
           </div>
           <div className='mt-3 mic'>
-        Microhaze Technologies, a leading IT service provider in India is proficient in simplifying the client demands with sustainable and personalized IT solutions globally.
+        SungrowTechnologies, a leading IT service provider in India is proficient in simplifying the client demands with sustainable and personalized IT solutions globally.
         </div>
         </div>
        
@@ -137,7 +137,7 @@ function Footer() {
             <div>
 
             Corporate Office
-Level 3, 824, HRBR Layout, Block I Extension, Kalyan Nagar, Bengaluru, Karnataka - 560 043.
+ 201, NTR residency, Chembanahalli village, Sarjapura Road , Bangalore 562125
 
             </div>
           </div>
@@ -148,7 +148,7 @@ Level 3, 824, HRBR Layout, Block I Extension, Kalyan Nagar, Bengaluru, Karnataka
             <div>
 
             Reach Us
-080-46837130
++91 7418415642
 
             </div>
           </div>
@@ -159,7 +159,7 @@ Level 3, 824, HRBR Layout, Block I Extension, Kalyan Nagar, Bengaluru, Karnataka
             <div>
 
             Email
-hr@microhaze.com
+poovarsan@gmail.com
 
             </div>
           </div>

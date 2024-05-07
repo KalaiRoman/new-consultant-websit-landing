@@ -12,7 +12,7 @@ function Python() {
         <h3>Python</h3>
       </div>
       <div className='grey-text mb-3 mt-2'>
-      This platform allows professionals to express core concepts just in fewer lines of code. It is integrated with a dynamic type system and automated memory management. We, at Microhaze Technologies, provide all our programming solutions based on the customized requirements of our valuable clients. Our team of software professionals provides modern programming solutions in the Python programming language. Our Python-based solutions help our clients to meet their business objectives with full assurance.
+      This platform allows professionals to express core concepts just in fewer lines of code. It is integrated with a dynamic type system and automated memory management. We, at SungrowTechnologies, provide all our programming solutions based on the customized requirements of our valuable clients. Our team of software professionals provides modern programming solutions in the Python programming language. Our Python-based solutions help our clients to meet their business objectives with full assurance.
       </div>
      
 

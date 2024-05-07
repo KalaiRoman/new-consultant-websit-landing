@@ -26,7 +26,7 @@ function Careers() {
 <h3>  Careers</h3>
 </div>
 <div className='look-text mt-3'>
-Looking for the best and brightest professionals committed to creating, developing and implementing innovative technology and business solutions for our customers. Learning mentality is imperative and is presently a typical attrib among corporate world. What is more vital is learning over the aggressive edge. Microhaze Technologies Group has been developing at an exceptionally gigantic rate, this is conceivable in light of the fact that we have individuals who can get a handle on innovation and additionally spaces at incredible speed.
+Looking for the best and brightest professionals committed to creating, developing and implementing innovative technology and business solutions for our customers. Learning mentality is imperative and is presently a typical attrib among corporate world. What is more vital is learning over the aggressive edge. SungrowTechnologies Group has been developing at an exceptionally gigantic rate, this is conceivable in light of the fact that we have individuals who can get a handle on innovation and additionally spaces at incredible speed.
 
 </div>
 </div>

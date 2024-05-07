@@ -15,7 +15,7 @@ function Ourtechnologies() {
           name:"Java/J2EE",
           path:"/software-testing",
           image:two,
-          title:"Microhaze Technologies service offerings in Java technology span across architecture definition, assessment."
+          title:"SungrowTechnologies service offerings in Java technology span across architecture definition, assessment."
     
         },
         {
@@ -42,7 +42,7 @@ function Ourtechnologies() {
 Our Technologies
 </div>
 <div className='mt-5'>
-Microhaze Technologies is committed to making your business software more technologically advanced than your. Utilizing leading edge collaboration software, Microhaze Technologies delivers an integrated suite of world-class enterprise applications that are affordable, scalable and manageable.
+SungrowTechnologies is committed to making your business software more technologically advanced than your. Utilizing leading edge collaboration software, SungrowTechnologies delivers an integrated suite of world-class enterprise applications that are affordable, scalable and manageable.
 </div>
 <div className='read-more-button mt-5'>
     READ MORE <span><i class="fa-solid fa-arrow-right"></i></span>

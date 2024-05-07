@@ -52,9 +52,7 @@ function Homepage1() {
       <div className='title-section'>
         <div className='lists'>
           <h2>
-
-          Welcome to Microhaze Technologies
-
+          Welcome to SungrowTechnologies
           </h2>
         </div>
         <div className='lists'>
@@ -76,7 +74,7 @@ function Homepage1() {
       <div className='title-section'>
         <div className='lists '>
           <h2>
-          Welcome to Microhaze Technologies
+          Welcome to SungrowTechnologies
           </h2>
         </div>
         <div className='lists'>

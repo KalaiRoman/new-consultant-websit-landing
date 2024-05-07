@@ -13,14 +13,14 @@ function Ourservices() {
       name:"Software Development",
       path:"/software-development",
       image:ser1,
-      title:"Microhaze Technologies delivers cost effective and reliable software development services."
+      title:"SungrowTechnologies delivers cost effective and reliable software development services."
     },
     {
       id:2,
       name:"Software Testing",
       path:"/software-testing",
       image:ser2,
-      title:"Microhaze Technologies uses a risk-based prioritization approach to get to the right answers."
+      title:"SungrowTechnologies uses a risk-based prioritization approach to get to the right answers."
 
     },
     {

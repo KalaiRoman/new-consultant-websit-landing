@@ -11,7 +11,7 @@ function Salesforic() {
         <h3>Salesforce</h3>
       </div>
       <div className='grey-text mb-3 mt-2'>
-      Salesforce.com is the customer success platform of choice for many organizations, when it comes to getting the most out of this powerful tool, experience matters. Microhaze Technologies Salesforce practice helps clients get the best out of their investments. We offer Implementation, Customization, Integration, and Maintenance services for Salesforce Sales Cloud, Services Cloud, Community Cloud and Marketing Cloud. We have deep expertise in Salesforce custom application development using Force.com and in building mobile applications.
+      Salesforce.com is the customer success platform of choice for many organizations, when it comes to getting the most out of this powerful tool, experience matters. SungrowTechnologies Salesforce practice helps clients get the best out of their investments. We offer Implementation, Customization, Integration, and Maintenance services for Salesforce Sales Cloud, Services Cloud, Community Cloud and Marketing Cloud. We have deep expertise in Salesforce custom application development using Force.com and in building mobile applications.
       </div>
       <div className='grey-text mb-3 mt-2'>
       Salesforce.com is the customer success platform of choice for many organizations, when it comes to getting the most out of this powerful tool, experience matters. Klaren Salesforce practice helps clients get the best out of their investments.

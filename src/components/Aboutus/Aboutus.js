@@ -22,10 +22,10 @@ function Aboutus() {
     <div className='right-box'>
 
 <div className='career-firsts'>
-<h3>Microhaze Technologies</h3>
+<h3>SungrowTechnologies</h3>
 </div>
 <div className='look-text mt-3'>
-Microhaze Technologies is a global company specializing in software product and technology. Microhaze Technologies offers customized software product and IT services. We provide "cutting- edge" solutions that deliver competitive advantage to our valued clients. Our disciplined management techniques, domain knowledge and holistic approach constantly develop ways to enhance value to our clients.
+SungrowTechnologies is a global company specializing in software product and technology. SungrowTechnologies offers customized software product and IT services. We provide "cutting- edge" solutions that deliver competitive advantage to our valued clients. Our disciplined management techniques, domain knowledge and holistic approach constantly develop ways to enhance value to our clients.
 
 </div>
 </div>

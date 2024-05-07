@@ -12,13 +12,13 @@ function Javaj2ee() {
         <h3>Java/J2EE</h3>
       </div>
       <div className='grey-text mb-3 mt-2'>
-      Microhaze Technologies service offerings in Java technology span across architecture definition, assessment, application development & maintenance, business process integration and reengineering. Microhaze Technologiesconsultants have deep expertise in developing large and complex transaction processing and database oriented N-tier applications.
+      SungrowTechnologies service offerings in Java technology span across architecture definition, assessment, application development & maintenance, business process integration and reengineering. SungrowTechnologiesconsultants have deep expertise in developing large and complex transaction processing and database oriented N-tier applications.
       </div>
       <div className='grey-text mb-3 mt-2'>
-      You can leverage Microhaze Technologies's Java Excellence Center to leverage industry best practices, architect and designs robust applications to successfully deliver complex enterprise-scale solutions. Microhaze Technologies Java consultants continuously evaluate new technologies and develop best in class offerings for our clients.
+      You can leverage SungrowTechnologies's Java Excellence Center to leverage industry best practices, architect and designs robust applications to successfully deliver complex enterprise-scale solutions. SungrowTechnologies Java consultants continuously evaluate new technologies and develop best in class offerings for our clients.
       </div>
       <div className='grey-text mb-3 mt-2'>
-      Microhaze Technologies's Java/J2EE Center of Excellence (J-CoE) is comprised of an amalgamation of well defined processes, tools and technologies and a team of highly experienced Java consultants that aid in developing solutions for our clients' rapidly evolving business requirements. We use Java/J2EE as an enabling technology to reduce a client's total cost of ownership.
+      SungrowTechnologies's Java/J2EE Center of Excellence (J-CoE) is comprised of an amalgamation of well defined processes, tools and technologies and a team of highly experienced Java consultants that aid in developing solutions for our clients' rapidly evolving business requirements. We use Java/J2EE as an enabling technology to reduce a client's total cost of ownership.
       </div>
 
       <div className='mt-4 orange-text mb-2'>
@@ -127,14 +127,14 @@ function Javaj2ee() {
       Tools, Technologies and Frameworks
       </div>
       <div className='grey-text mb-3 mt-2'>
-      Microhaze Technologiesleverages both commercial and inhouse tools and frameworks to rapidly deploy enterprise solutions on J2EE platform.
+      SungrowTechnologiesleverages both commercial and inhouse tools and frameworks to rapidly deploy enterprise solutions on J2EE platform.
       </div>
 
       <div className='mt-4 orange-text mb-2'>
       IBM Websphere
       </div>
       <div className='grey-text mb-3 mt-2'>
-      Microhaze Technologieshas expertise on IBM WebSphere technologies developing scalable, secure enterprise-class applications on various WebSphere products helping companies leverage technology to deliver against specific business challenges.
+      SungrowTechnologieshas expertise on IBM WebSphere technologies developing scalable, secure enterprise-class applications on various WebSphere products helping companies leverage technology to deliver against specific business challenges.
       </div>
     </div>
     </div>

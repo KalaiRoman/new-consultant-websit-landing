@@ -81,7 +81,7 @@ function QualityAssurance() {
       Testing Services
       </div>
       <div className='grey-text mb-3 mt-2'>
-      At Microhaze Technologies, we strive to derive quality in your web and mobile applications by aligning our dedicated team of software testers to create an end-to-end process to ensure a secure online presence of your business.
+      At SungrowTechnologies, we strive to derive quality in your web and mobile applications by aligning our dedicated team of software testers to create an end-to-end process to ensure a secure online presence of your business.
       </div>
       <div className='grey-text mb-3 mt-2'>
       Our state-of-the-art Software Testing Services are designed with a solitary motive to reach client’s expectations. We put together test cases, test executions, defect analysis, bug reporting, risk assessment all together to deliver flawless end products.

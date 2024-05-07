@@ -20,7 +20,7 @@ function Cybersecurity() {
       Our Services
       </div>
       <div className='grey-text mb-3 mt-2'>
-      Microhaze Technologies’s security audit services combine the industry expertise with advanced business insights that help you to unlock the power of your data. We ensure the security solutions based on your enterprise are fully dedicated to risk profile and technology landscape
+      SungrowTechnologies’s security audit services combine the industry expertise with advanced business insights that help you to unlock the power of your data. We ensure the security solutions based on your enterprise are fully dedicated to risk profile and technology landscape
       </div>
 
       <div className='mt-4 orange-text mb-2'>

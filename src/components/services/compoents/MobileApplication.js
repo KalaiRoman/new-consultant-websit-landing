@@ -71,19 +71,19 @@ function MobileApplication() {
       Study and Research
       </div>
       <div className='grey-text mb-3 mt-2'>
-      At Microhaze Technologies, we don't simply outline the Mobile Apps utilizing any accessible formats. Before outlining the application, we think about the customers business and concentrate on the perspectives that catches the client's consideration the most like shading coordination, illustrations, speed, convenience and so on.
+      At SungrowTechnologies, we don't simply outline the Mobile Apps utilizing any accessible formats. Before outlining the application, we think about the customers business and concentrate on the perspectives that catches the client's consideration the most like shading coordination, illustrations, speed, convenience and so on.
       </div>
       <div className='mt-4 orange-text mb-2'>
       Easy to understand Interface
       </div>
       <div className='grey-text mb-3 mt-2'>
-      The top of the line versatile applications created by Microhaze Technologies are mindfully intended to guarantee they are easy to understand, bother free and smooth working. Convenience helps in guaranteeing your client doesn't lose enthusiasm for your application and keeps utilizing your application for a more extended period.
+      The top of the line versatile applications created by SungrowTechnologies are mindfully intended to guarantee they are easy to understand, bother free and smooth working. Convenience helps in guaranteeing your client doesn't lose enthusiasm for your application and keeps utilizing your application for a more extended period.
       </div>
       <div className='mt-4 orange-text mb-2'>
       Documentations and Testing
       </div>
       <div className='grey-text mb-3 mt-2'>
-      Each Mobile App created by Microhaze Technologies is mindfully outlined, reported and created to guarantee all phases of your business are caught and given equivalent significance.
+      Each Mobile App created by SungrowTechnologies is mindfully outlined, reported and created to guarantee all phases of your business are caught and given equivalent significance.
       </div>
     </div>
     </div>

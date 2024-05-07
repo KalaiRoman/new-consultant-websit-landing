@@ -47,8 +47,8 @@ function Microhaze() {
       
       ]
   return (
-    <div className='main-microhaze'>
-<div className='inside-main-microhaze'>
+    <div className='main-Sungrow'>
+<div className='inside-main-Sungrow'>
     <div className='common-inside-section'>
     <div className='mic-box'>
         {arrayData?.map((item,index)=>{
@@ -88,12 +88,12 @@ function Microhaze() {
     <div className='career-firsts'>
       <h3>
 
-    Microhaze Technologies
+    SungrowTechnologies
 
       </h3>
     </div>
     <div className='grey-text mt-5'>
-    Microhaze Technologies is a global company specializing in software product and technology. Microhaze Technologies offers customized software product and IT services. We provide "cutting- edge" solutions that deliver competitive advantage to our valued clients. Our disciplined management techniques, domain knowledge and holistic approach constantly develop ways to enhance value to our clients. 
+    SungrowTechnologies is a global company specializing in software product and technology. SungrowTechnologies offers customized software product and IT services. We provide "cutting- edge" solutions that deliver competitive advantage to our valued clients. Our disciplined management techniques, domain knowledge and holistic approach constantly develop ways to enhance value to our clients. 
     </div>
     <div>
       {arrayData1?.map((items,index)=>{
