@@ -27,32 +27,32 @@ export default function BootomHeader() {
         {
           id:1,
           name:"Software Development",
-          path:"/software-development"
+          paths:"/software-development"
         },
         {
           id:2,
           name:"Software Testing",
-          path:"/software-testing"
+          paths:"/software-testing"
         },
         {
           id:3,
           name:"IT Staff Augment",
-          path:"/it-staff-augement"
+          paths:"/it-staff-augement"
         },
         {
           id:4,
           name:"Cloud Computing",
-          path:"/cloud-computing"
+          paths:"/cloud-computing"
         },
         {
           id:5,
           name:"Quality Assurance",
-          path:"/quality-assurance"
+          paths:"/quality-assurance"
         },
         {
           id:6,
           name:"Mobile Application",
-          path:"/mobile-application"
+          paths:"/mobile-application"
         },
         
 
@@ -65,32 +65,32 @@ export default function BootomHeader() {
         {
           id:1,
           name:"salesforce",
-          path:"/sales-force"
+          paths:"/sales-force"
         },
         {
           id:2,
           name:"Java/J2EE",
-          path:"/java"
+          paths:"/java"
         },
         {
           id:3,
           name:"Cyber Security",
-          path:"/cyber-security"
+          paths:"/cyber-security"
         },
         {
           id:4,
           name:"Python",
-          path:"/python"
+          paths:"/python"
         },
         {
           id:5,
           name:"ReactJs",
-          path:"/reactjs"
+          paths:"/reactjs"
         },
         {
           id:6,
           name:"Clinical SAS",
-          path:"/clinicalsas"
+          paths:"/clinicalsas"
         },
         
 
@@ -114,12 +114,13 @@ export default function BootomHeader() {
     }
   ]
   const pathNavigate=(path)=>{
-   
+
       history(path);
-
-
   }
  
+  const pathNavigatechild=(path)=>{
+    window.location.replace(path);
+  }
   return (
     <div className='main-bottom-header' onMouseLeave={()=>{
       setShow(false)
@@ -154,8 +155,9 @@ export default function BootomHeader() {
         <div className={show && item?.arrayData?.length>0 && indexs===index?"show":"hide"}>
 {item?.arrayData?.map((items,indexss)=>{
   return(
-    <div key={indexss} className='border-lists' onClick={()=>pathNavigate(items?.path)}>
-      <a className='a' href={items?.path}>{items?.name}</a>
+    <div key={indexss} className='border-lists' onClick={()=>pathNavigatechild(items?.paths)}>
+      {/* <a className='a' href={items?.path}>{items?.name}</a> */}
+      {items?.name}
     </div>
   )
 })}

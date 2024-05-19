@@ -34,20 +34,20 @@ function Technologies() {
       image:s4
 
     },
-    {
-      id:5,
-      name:"ReactJs",
-      path:"/reactjs",
-      image:s5
+    // {
+    //   id:5,
+    //   name:"ReactJs",
+    //   path:"/reactjs",
+    //   image:s5
 
-    },
-    {
-      id:6,
-      name:"Clinical SAS",
-      path:"/clinicalsas",
-      image:s6
+    // },
+    // {
+    //   id:6,
+    //   name:"Clinical SAS",
+    //   path:"/clinicalsas",
+    //   image:s6
 
-    },
+    // },
     
 
   ]

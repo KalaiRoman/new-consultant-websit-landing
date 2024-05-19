@@ -102,7 +102,7 @@ Reach out to us for questions and feedback. ... For more specific questions and 
   <i class="fa-solid fa-phone"></i>
   </div>
   <div>
-  +91  7418415642
+  +91 72006 94243
   </div>
 </div>
 <div className='split-box-contact'>
@@ -110,7 +110,7 @@ Reach out to us for questions and feedback. ... For more specific questions and 
   <i class="fa-solid fa-envelope"></i>
   </div>
   <div>
-poovarasan@gmail.com
+  hr@sungrowit.com
   </div>
 </div>
          </div>

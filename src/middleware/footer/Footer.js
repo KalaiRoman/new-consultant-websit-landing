@@ -148,7 +148,7 @@ function Footer() {
             <div>
 
             Reach Us
-+91 7418415642
+            +91 72006 94243 
 
             </div>
           </div>
@@ -159,7 +159,7 @@ function Footer() {
             <div>
 
             Email
-poovarsan@gmail.com
+hr@sungrowit.com
 
             </div>
           </div>

@@ -5,11 +5,11 @@ function Middleheader() {
     <div className='middle-main-header'>
       <div className='inside-middle-header'>
 <div className='d-flex gap-2 cursor icon'>
-  <span><i class="fa-regular fa-envelope"></i></span> Poovarasan@gmail.com
+  <span><i class="fa-regular fa-envelope"></i></span> hr@sungrowit.com
 </div>
 <div className='right-middle-header'>
   <div className='d-flex gap-2 cursor'>
-  <span><i class="fa-solid fa-phone"></i></span>Call us at: +91  7418415642
+  <span><i class="fa-solid fa-phone"></i></span>Call us at: +91 72006 94243
   </div>
   <div>
     |
