@@ -23,7 +23,7 @@
 .title-section {
   position: absolute;
   left: 25vh;
-  color: white;
+  color: white !important;
   top: 25%;
   transform: translateX(-50%, -50%);
   @include xsBreakPoint {
