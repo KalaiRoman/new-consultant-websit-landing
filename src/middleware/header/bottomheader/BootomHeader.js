@@ -27,32 +27,32 @@ export default function BootomHeader() {
         {
           id:1,
           name:"Software Development",
-          paths:"/software-development"
+          path:"/software-development"
         },
         {
           id:2,
           name:"Software Testing",
-          paths:"/software-testing"
+          path:"/software-testing"
         },
         {
           id:3,
           name:"IT Staff Augment",
-          paths:"/it-staff-augement"
+          path:"/it-staff-augement"
         },
         {
           id:4,
           name:"Cloud Computing",
-          paths:"/cloud-computing"
+          path:"/cloud-computing"
         },
         {
           id:5,
           name:"Quality Assurance",
-          paths:"/quality-assurance"
+          path:"/quality-assurance"
         },
         {
           id:6,
           name:"Mobile Application",
-          paths:"/mobile-application"
+          path:"/mobile-application"
         },
         
 
@@ -65,33 +65,33 @@ export default function BootomHeader() {
         {
           id:1,
           name:"salesforce",
-          paths:"/sales-force"
+          path:"/sales-force"
         },
         {
           id:2,
           name:"Java/J2EE",
-          paths:"/java"
+          path:"/java"
         },
         {
           id:3,
           name:"Cyber Security",
-          paths:"/cyber-security"
+          path:"/cyber-security"
         },
         {
           id:4,
           name:"Python",
-          paths:"/python"
+          path:"/python"
         },
-        {
-          id:5,
-          name:"ReactJs",
-          paths:"/reactjs"
-        },
-        {
-          id:6,
-          name:"Clinical SAS",
-          paths:"/clinicalsas"
-        },
+        // {
+        //   id:5,
+        //   name:"ReactJs",
+        //   path:"/reactjs"
+        // },
+        // {
+        //   id:6,
+        //   name:"Clinical SAS",
+        //   path:"/clinicalsas"
+        // },
         
 
       ]
@@ -118,8 +118,8 @@ export default function BootomHeader() {
       history(path);
   }
  
-  const pathNavigatechild=(path)=>{
-    window.location.replace(path);
+  const pathNavigatechild=(paths)=>{
+    history(paths);
   }
   return (
     <div className='main-bottom-header' onMouseLeave={()=>{
@@ -146,16 +146,16 @@ export default function BootomHeader() {
           setIndex(index)
 
         }
-      }} onClick={()=>pathNavigate(item?.path)}>
+      }} >
        
-       <div className={router===item?.path?'activepath':"inactivepath"}>
+       <div className={router===item?.path?'activepath':"inactivepath"} onClick={()=>pathNavigate(item?.path)}>
        {item?.name} {item?.arrayData?.length>0?<>{index===indexs?<i class="fa-solid fa-angle-up"></i>:<i class="fa-solid fa-angle-down"></i>}</>:null}
 
        </div>
         <div className={show && item?.arrayData?.length>0 && indexs===index?"show":"hide"}>
 {item?.arrayData?.map((items,indexss)=>{
   return(
-    <div key={indexss} className='border-lists' onClick={()=>pathNavigatechild(items?.paths)}>
+    <div key={indexss} className='border-lists' onClick={()=>pathNavigatechild(items?.path)}>
       {/* <a className='a' href={items?.path}>{items?.name}</a> */}
       {items?.name}
     </div>
